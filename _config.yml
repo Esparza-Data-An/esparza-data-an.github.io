@@ -1,0 +1,42 @@
+# Configuración Jekyll para GitHub Pages
+# Tema profesional y limpio
+theme: jekyll-theme-cayman
+
+# Información del sitio
+title: "Abraham Esparza Data Analytics Portfolio"
+description: "Data Analyst • Anthropologist | 'The wise man doesn't give the right answers, he poses the right questions'"
+url: "https://esparzadataan.github.io"
+
+# Autor
+author:
+  name: "Abraham Esparza"
+  email: "esparza.abraham.an@gmail.com"
+
+# Redes sociales (personaliza con tus URLs)
+social:
+  github: "esparzadataan"
+  linkedin: "abrahamesparza97"
+
+
+# Configuración técnica
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclusiones
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - GUIA_CONSTRUCCION.md
+
+# Frontmatter defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
