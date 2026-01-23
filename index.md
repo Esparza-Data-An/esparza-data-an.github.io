@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Esparza's Portfolio
 permalink: /
 ---
 

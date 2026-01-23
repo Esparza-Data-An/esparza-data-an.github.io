@@ -1,6 +1,6 @@
 # Configuración Jekyll para GitHub Pages
 # Tema profesional y limpio
-theme: jekyll-theme-cayman
+theme: minimal
 
 # Información del sitio
 title: "Abraham Esparza Data Analytics Portfolio"
