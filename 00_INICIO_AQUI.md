@@ -3,7 +3,7 @@
 ## 📊 Estado actual de tu repositorio
 
 ```
-EsparzaDataAn.github.io/
+Esparza-Data-An.github.io/
 │
 ├── 📄 ARCHIVOS DE CONFIGURACIÓN
 │   └── _config.yml              ← Configura aquí tu sitio

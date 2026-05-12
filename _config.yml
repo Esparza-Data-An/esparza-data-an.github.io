@@ -1,10 +1,9 @@
-# Configuración Jekyll para GitHub Pages
-# Tema profesional y limpio
-theme: minimal
+# Configuración de Jekyll para el portafolio de Abraham Esparza
+theme: jekyll-theme-minimal
 
 # Información del sitio
-title: "Abraham Esparza Data Analytics Portfolio"
-description: "Data Analyst • Anthropologist | 'The wise man doesn't give the right answers, he poses the right questions'"
+title: "Abraham Esparza, Data Analytics Portfolio"
+description: "Data Analyst • Anthropologist | 'The wise man doesn't give the right answers, poses the right questions'"
 url: "https://esparza-data-an.github.io"
 
 # Autor

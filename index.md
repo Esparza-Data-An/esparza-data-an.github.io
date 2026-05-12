@@ -4,7 +4,7 @@ title: Esparza's Portfolio
 permalink: /
 ---
 
-# ¡Hola! 👋
+# 
 
 Soy **Analista de Datos** y **Antropólogo** apasionado por descubrir historias en los datos y entender el comportamiento humano desde una perspectiva cuantitativa.
 
