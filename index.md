@@ -4,14 +4,7 @@ title: Abraham Esparza | Data Analyst
 permalink: /
 ---
 
-# Abraham Esparza
-### Data Analyst · Anthropologist · Human Behavior Researcher
-
-> *"The wise doesn't give the right answers — they pose the right questions."*
-
----
-
-I'm a Data Analyst with a unique background in Anthropology and Cultural History. I don't just find patterns in data — I understand **why** they exist.
+I'm a Data Analyst with a unique background in Anthropology and Cultural History. I don't just find patterns in data — I understand _why_ they exist.
 
 My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real decisions.
 
@@ -27,14 +20,14 @@ My work combines technical rigor with a socio-cultural perspective, transforming
 
 ---
 
-## Featured Projects
+## [Featured Projects](./projects)
 
 | Project | Tools | Focus |
 |---|---|---|
-| [Operational Efficiency Analysis](./projects/) | Python, SciPy | EDAS · tatistical Modeling |
-| [Customer Retention Analysis](./projects/) | Scikit-learn, K-Means | ML · Clustering |
-| [Market & User Behavior Analysis](./projects/) | Pandas, Seaborn | EDA · Segmentation |
-| [Mobility & Environmental Impact](./projects/) | SQL, Web Scraping | Statistical Testing |
+| [Operational Efficiency Analysis](./projects/operator-detection/) | Python, SciPy | EDA · Statistical Modeling |
+| [Customer Retention Analysis](./projects/customer-churn/) | Scikit-learn, K-Means | ML · Clustering |
+| [Market & User Behavior Analysis](./projects/videogame-market/) | Pandas, Seaborn | EDA · Segmentation |
+| [Mobility & Environmental Impact](./projects/chicago-trips/) | SQL, Web Scraping | Statistical Testing |
 
 ---
 
