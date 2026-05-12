@@ -1,36 +1,45 @@
 ---
 layout: default
-title: Esparza's Portfolio
+title: Abraham Esparza | Data Analyst
 permalink: /
 ---
 
-# 
+# Abraham Esparza
+### Data Analyst · Anthropologist · Human Behavior Researcher
 
-Soy **Analista de Datos** y **Antropólogo** apasionado por descubrir historias en los datos y entender el comportamiento humano desde una perspectiva cuantitativa.
-
-## ¿Qué hago?
-
-Combino análisis riguroso con pensamiento antropológico para convertir datos complejos en decisiones accionables. Me especializo en:
-
-- 📊 **Análisis Exploratorio de Datos** - SQL, Python, Pandas
-- 📈 **Visualización de Datos** - Tableau, Power BI, Python
-- 🔍 **Investigación Cuantitativa** - Estadística, métodos antropológicos
-- 💡 **Data Storytelling** - Comunicar insights de forma clara
+> *"The wise doesn't give the right answers — they pose the right questions."*
 
 ---
 
-## 🎯 Mis Proyectos Destacados
+I'm a Data Analyst with a unique background in Anthropology and Cultural History. I don't just find patterns in data — I understand **why** they exist.
 
-Explora algunos de mis proyectos más recientes en la sección [**Proyectos**](./projects.html).
-
----
-
-## 📧 Conecta conmigo
-
-- **📧 Email:** [esparza.abraham.an@gmail.com](esparza.abraham.an@gmail.com)
-- **💼 LinkedIn:** [Mi perfil](https://www.linkedin.com/in/abrahamesparza97)
-- **🐙 GitHub:** [@Esparza-Data-An](https://github.com/Esparza-Data-An)
+My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real decisions.
 
 ---
 
-**P.S.** - Si eres reclutador, me encantaría hablar sobre oportunidades donde pueda aplicar análisis de datos y pensamiento crítico. ¡Escríbeme! 🚀
+## What I Do
+
+- 🐍 **Python** — Pandas, NumPy, Scikit-learn, SciPy
+- 🗄️ **SQL** — PostgreSQL, complex queries, multi-table joins
+- 📊 **Visualization** — Power BI, Tableau, Matplotlib, Seaborn
+- 🤖 **Machine Learning** — Classification, Clustering, Regression
+- 🧪 **Statistical Analysis** — A/B Testing, Hypothesis Testing, EDA
+
+---
+
+## Featured Projects
+
+| Project | Tools | Focus |
+|---|---|---|
+| [Operational Efficiency Analysis](./projects/) | Python, SciPy | EDAS · tatistical Modeling |
+| [Customer Retention Analysis](./projects/) | Scikit-learn, K-Means | ML · Clustering |
+| [Market & User Behavior Analysis](./projects/) | Pandas, Seaborn | EDA · Segmentation |
+| [Mobility & Environmental Impact](./projects/) | SQL, Web Scraping | Statistical Testing |
+
+---
+
+## Let's Connect
+
+- 📧 [esparza.abraham.an@gmail.com](mailto:esparza.abraham.an@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/abrahamesparza97)
+- 🐙 [GitHub](https://github.com/Esparza-Data-An)

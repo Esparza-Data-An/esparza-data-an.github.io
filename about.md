@@ -1,74 +1,79 @@
 ---
 layout: default
-title: Sobre mí
+title: About Me
 permalink: /about/
 ---
 
-# Sobre mí
+# About Me
 
-## Quién soy
+## Who I Am
 
-Soy un profesional con formación única en **Análisis de Datos** y **Antropología**. Esta combinación me permite entender no solo *qué* dicen los datos, sino *por qué* tienen sentido en el contexto humano y social.
+I started my career investigating socio-mythical structures in southern 
+Chile — designing methodologies, analyzing longitudinal data, and 
+synthesizing complex findings for diverse audiences.
 
-Mi curiosidad por entender patrones me llevó desde la investigación antropológica al análisis cuantitativo de datos, descubriendo que ambas disciplinas se complementan perfectamente.
+Over time I recognized that what truly drives is the investigation itself. 
+The process of finding patterns, formulating hypotheses, and extracting 
+meaning from complex information. Data analysis is, at its core, the 
+same discipline — just with different raw material.
 
----
+So I made the move. Not away from research, but toward a version of it 
+that operates at the speed of business.
 
-## 🛠️ Habilidades Técnicas
-
-### Lenguajes de Programación
-- **Python** - Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **SQL** - Queries complejas, optimización, bases de datos relacionales
-
-
-### Herramientas de Visualización
-- **Tableau** - Dashboards interactivos
-- **Power BI** - Reportes automatizados
-- **Python** - Plotly, Matplotlib, Seaborn
-
-### Metodologías
-- Análisis exploratorio de datos (EDA)
-- Estadística descriptiva e inferencial
-- Métodos cualitativos y cuantitativos
-- Investigación etnográfica
+I don't just process data — I investigate it.
 
 ---
 
-## 📚 Educación
+## How I Work
 
-**Maestría en Estudios Sociales y Humanos**  
-[El Colegio de Jalisco], [2026]
+My favorite part of any project is what happens before the dashboard: 
+the **Exploratory Data Analysis**, the hypothesis formulation, the 
+statistical validation. Finding the real story hidden in a dataset is 
+what genuinely drives me.
 
-**Licenciatura en Antropología**  
-[Universidad de Guadalajara], [2023]
-
----
-
-## 💼 Experiencia Laboral
-
-**Analista de Datos**  
-[Proyecto:videogames], [2025]
-- En construcción
-
-**[Investigador]**  
-[SECIHTI], [2024-2026]
-- En construcción
+I combine technical rigor with a research mindset shaped by years of 
+academic investigation — including longitudinal analysis of complex 
+historical and social datasets.
 
 ---
 
-## 🎓 Certificaciones
+## Technical Skills
 
-- [Analista de Datos by TripleTen]
+**Languages & Libraries**
+- Python — Pandas, NumPy, SciPy, Scikit-learn
+- SQL — PostgreSQL, complex joins, subqueries
 
+**Visualization & BI**
+- Power BI · Tableau · Matplotlib · Seaborn · Plotly
+
+**Methods**
+- Exploratory Data Analysis (EDA)
+- A/B & A/A/B Testing
+- Machine Learning — Classification, Clustering, Regression
+- Statistical Hypothesis Testing
+- ETL Processes
 
 ---
 
-## 🌱 Actualmente aprendiendo
+## Education
 
-- Machine Learning avanzado
-- Data Engineering
-- IA
+**Data Analyst Professional Certificate**
+TripleTen · 2025–2026
+
+**M.A. in Social and Human Studies** *(Research-focused)*
+El Colegio de Jalisco · 2024–2026
+
+**B.A. in Anthropology**
+Universidad de Guadalajara · 2016–2023
 
 ---
 
-[← Volver al inicio](/) | [Ver Proyectos](./projects.html)
+## Languages
+
+- 🇬🇧 English — Advanced (Full Professional Proficiency)
+- 🇪🇸 Spanish — Native
+- 🇧🇷 Portuguese — Intermediate (Reading)
+
+---
+
+[← Home](/) · [Projects →](./projects/)

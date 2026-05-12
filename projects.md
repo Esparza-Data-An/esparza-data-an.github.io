@@ -1,86 +1,47 @@
 ---
 layout: default
-title: Proyectos
+title: Projects
 permalink: /projects/
 ---
 
-# 📊 Mis Proyectos
+# Projects
 
-Aquí están algunos de mis trabajos más destacados. Cada proyecto incluye análisis completo con código, visualizaciones e insights.
-
----
-
-## Proyecto 1: [Tu Primer Proyecto]
-
-**Descripción:** Breve descripción de qué se analiza y por qué es interesante.
-
-**Tecnologías:** Python, Pandas, Tableau  
-**Duración:** [Mes/Año]
-
-**Objetivos:**
-- Objetivo 1
-- Objetivo 2
-- Objetivo 3
-
-**Insights principales:**
-- Insight 1
-- Insight 2
-
-📖 **[Ver análisis completo (Jupyter Notebook)](./proyecto_1.ipynb)**
+A selection of end-to-end data analysis projects, each combining 
+rigorous methodology with actionable business recommendations.
 
 ---
 
-## Proyecto 2: [Tu Segundo Proyecto]
+## [Inefficient Operator Detection](./operator-detection/)
+**Virtual Telephony Platform · Python · SciPy · Tableau**
 
-**Descripción:** Descripción del análisis.
-
-**Tecnologías:** Python, SQL, Power BI  
-**Duración:** [Mes/Año]
-
-**Objetivos:**
-- Objetivo 1
-- Objetivo 2
-
-**Insights principales:**
-- Insight 1
-- Insight 2
-
-📖 **[Ver análisis completo (Jupyter Notebook)](./proyecto_2.ipynb)**
+Statistical methodology to identify underperforming operators using 
+weighted scoring and hypothesis testing. 70 critical cases flagged 
+out of 1,000+ operators.
 
 ---
 
-## Proyecto 3: [Tu Tercer Proyecto]
+## [Customer Churn Prediction & Segmentation](./customer-churn/)
+**Fitness Chain · Scikit-learn · K-Means · Logistic Regression**
 
-**Descripción:** Descripción del análisis.
-
-**Tecnologías:** SQL, Python, Plotly  
-**Duración:** [Mes/Año]
-
-**Objetivos:**
-- Objetivo 1
-
-**Insights principales:**
-- Insight 1
-- Insight 2
-
-📖 **[Ver análisis completo (Jupyter Notebook)](./proyecto_3.ipynb)**
+Churn prediction model (92% accuracy) combined with behavioral 
+segmentation to deliver cluster-specific retention strategies.
 
 ---
 
-## 💡 ¿Más proyectos?
+## [Market & User Behavior Analysis](./videogame-market/)
+**Global E-commerce (Gaming) · Python · SciPy · Seaborn**
 
-Esta sección se actualiza regularmente. Sígueme en [GitHub](https://github.com/esparzadataan) para ver mis últimos trabajos.
-
----
-
-## 📝 Nota sobre los Notebooks
-
-Cada proyecto aquí es un **Jupyter Notebook completo** que incluye:
-- ✅ Código reproducible
-- ✅ Visualizaciones interactivas
-- ✅ Explicaciones paso a paso
-- ✅ Conclusiones y recomendaciones
+Regional sales pattern analysis and hypothesis testing to support 
+acquisition and advertising strategies for a global online retailer.
 
 ---
 
-[← Volver al inicio](/) | [Sobre mí](./about.html)
+## [Trip Duration Analysis](./chicago-trips/)
+**Urban Mobility · SQL · Python · Statistical Testing**
+
+SQL-based data extraction and hypothesis testing confirming that 
+weather conditions significantly impact urban trip duration in Chicago.
+
+---
+
+*More projects coming soon.*
