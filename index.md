@@ -8,6 +8,7 @@ I'm a Data Analyst with a unique background in Anthropology and Cultural History
 
 My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real decisions.
 
+[More about me](./about/)
 ---
 
 ## What I Do
