@@ -35,7 +35,7 @@ Dual-stream optimization evaluating marketing spend across 7 channels and tracki
 
 ---
 
-## [User Behavior Analysis & A/A/B Test](./user-behavior-analysis/)
+## [User Behavior Analysis & A/A/B Test](./entertainment-ticketing/)
 **Product Analytics · Conversion Funnels · Hypothesis Testing · A/A/B Experiments**
 
 Reconstruction of a 4-stage mobile conversion funnel to locate a structural 38% user drop-off, combined with an A/A/B statistical experiment (z-tests with Bonferroni correction) evaluating design impact.
