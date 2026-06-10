@@ -1,10 +1,10 @@
 ---
 layout: default
 title: User Behavior Analysis & A/A/B Test
-permalink: /projects/foodtech-ab-testing/
+permalink: /projects/user-behavior-analysis/
 ---
 
-# User Behavior Analysis & A/A/B Testing in Food Tech
+# User Behavior Analysis & A/A/B Testing in mobile app
 **Product Analytics · Conversion Funnels · Hypothesis Testing · A/A/B Experiments**
 
 [← Back to Projects](/projects/)
@@ -46,7 +46,7 @@ A food products startup wanted to investigate user behavior across its mobile ap
 - **45.51%** of unique users complete the full journey from the initial application touchpoint to a successful payment.
 - **The Core Bottleneck:** The largest drop-off occurs immediately at the **MainScreen → OffersScreen** transition, where **38.09% of users are lost**.
 
-'''text
+```text
 [Main Screen: 7,419 Users]  ──(100%)
       ↓
 [Offers Screen: 4,593 Users] ──(60.96% Overall / 39.04% Drop-off)
@@ -54,7 +54,7 @@ A food products startup wanted to investigate user behavior across its mobile ap
 [Cart Screen: 3,734 Users]   ──(49.56% Overall / 18.70% Drop-off)
       ↓
 [Successful Pay: 3,539 Users]──(46.97% Overall / 5.22% Drop-off)
-'''
+```
 
 ### Experimental Outcomes
 - **A/A Validation Check:** Confirmed no statistically significant differences between control groups 246 and 247 ($p > 0.05$), proving the randomization algorithm worked perfectly.
