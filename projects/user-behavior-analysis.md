@@ -36,7 +36,7 @@ A food products startup wanted to investigate user behavior across its mobile ap
 
 **3. Statistical Experimentation**
 - Performed Z-tests for proportions across all stages to validate control consistency (A/A) and measure design changes (A vs. B).
-- Implemented a **Bonferroni correction** threshold ($\alpha = 0.003125$) across 16 simultaneous comparisons to prevent Type I error inflation.
+- Implemented a **Bonferroni correction** threshold (alpha = 0.003125) across 16 simultaneous comparisons to prevent Type I error inflation.
 
 ---
 
@@ -57,8 +57,8 @@ A food products startup wanted to investigate user behavior across its mobile ap
 
 
 ### Experimental Outcomes
-- **A/A Validation Check:** Confirmed no statistically significant differences between control groups 246 and 247 ($p > 0.05$), proving the randomization algorithm worked perfectly.
-- **A/A/B Evaluation:** Z-tests revealed no statistically significant impact on conversion metrics at any stage of the funnel under the font modification condition ($p > 0.05$), even under strict Bonferroni adjustments.
+- **A/A Validation Check:** Confirmed no statistically significant differences between control groups 246 and 247 (p > 0.05), proving the randomization algorithm worked perfectly.
+- **A/A/B Evaluation:** Z-tests revealed no statistically significant impact on conversion metrics at any stage of the funnel under the font modification condition (p > 0.05), even under strict Bonferroni adjustments.
 
 ---
 
