@@ -1,55 +1,55 @@
-# 📊 Mi Portafolio - Analista de Datos & Antropólogo
+# 📊 Data Analytics & Socio-Cultural Research Portfolio
 
-Bienvenido a mi portafolio profesional construido con **Jekyll** y alojado en **GitHub Pages**.
+Welcome to my professional portfolio repository. This project serves as a centralized hub showcasing end-to-end data analytics solutions, statistical experiments, and behavioral modeling, bridging data science with socio-cultural and business insights.
 
-## 🌐 Visita el sitio
-
-**[esparzadataan.github.io](https://esparzadataan.github.io)**
-
-## 📂 Estructura del proyecto
-
-```
-.
-├── _config.yml                 # Configuración de Jekyll
-├── index.md                    # Página de inicio
-├── about.md                    # Sobre mí
-├── projects.md                 # Galería de proyectos
-├── projects/                   # Carpeta con Jupyter Notebooks
-│   ├── videogames.ipynb
-└── README.md                   # Este archivo
-```
-
-## Cómo funciona
-
-1. **Escribe en Markdown** - Los archivos `.md` se convierten automáticamente a HTML
-2. **Agrega Notebooks** - Los `.ipynb` se renderizan en GitHub automáticamente
-3. **Git push** - GitHub Pages actualiza el sitio automáticamente
-4. **¡Listo!** - Tu portafolio está en línea
-
-## Personalización
-
-Para personalizar tu sitio, edita:
-
-- **_config.yml** - Título, descripción, redes sociales
-- **index.md** - Tu presentación personal
-- **about.md** - Sobre ti, habilidades, educación
-- **projects.md** - Descripción de tus proyectos
-
-## Agregar nuevos proyectos
-
-1. Coloca tu `.ipynb` en la carpeta `/projects`
-2. Actualiza `projects.md` con descripción y link
-3. Git push → ¡Listo!
-
-GitHub renderiza automáticamente los Notebooks.
-
-## Tecnologías
-
-- **Jekyll** - Generador de sitios estáticos
-- **GitHub Pages** - Hosting gratuito
-- **Markdown** - Lenguaje de escritura
-- **Jupyter Notebooks** - Para tus análisis
+🌐 **Live Portfolio:** [esparzadataan.github.io](https://esparzadataan.github.io)
 
 ---
 
-**Construido con ❤️ usando Jekyll y GitHub Pages**
+## 👤 About Me / Sobre Mí
+
+I am a **Data Analyst and Anthropologist** specializing in extracting actionable insights from complex datasets. My background allows me to merge quantitative precision (Python, SQL, Advanced Statistics) with qualitative depth, translating behavioral trends, conversion funnels, and customer metrics into strategic business recommendations.
+
+* **Technical Stack:** Python (Pandas, NumPy, Scikit-learn, SciPy), SQL (PostgreSQL), Tableau, Git.
+* **Methodological Focus:** A/A/B Testing, Multi-channel ROI/ROMI Optimization, Cohort Analysis, Predictive Modeling (Classification/Clustering), Urban Mobility Patterns.
+
+---
+
+## Core Project Architecture
+
+This repository powers my static portfolio built with **Jekyll** and hosted via **GitHub Pages**. The structural organization is designed for seamless navigation:
+
+```text
+.
+├── _config.yml               # Jekyll deployment configuration
+├── index.md                  # Homepage & Executive Executive Summary
+├── about.md                  # Professional profile, skills, and academic background
+├── projects.md               # Portfolio gallery index (Main Catalog)
+└── projects/                 # Production-ready data products & documentation
+```
+---
+## Featured Analytics Projects
+The production-ready projects hosted within this infrastructure include:
+
+- Data-Driven Growth Analytics — Multi-channel ROI & purchase velocity cohort optimization for entertainment ticketing.
+
+- User Behavior & A/A/B Testing — 4-stage mobile conversion funnel diagnostics and statistical validation via Z-tests.
+
+- Customer Churn & Behavioral Segmentation — Classification modeling (Logistic Regression/Random Forest) and K-Means clustering.
+
+- Inefficient Operator Detection — Non-parametric hypothesis testing (Mann-Whitney U) and interactive Tableau dashboard design.
+
+- Urban Mobility Analysis — Relational database extraction (PostgreSQL) and trip duration weather-impact validation.
+
+## Deployment & Local Replication
+This site is compiled statically. To run this environment locally for testing:
+
+- Clone the repository: git clone https://github.com/Esparza-Data-An/Esparza-Data-An.github.io.git
+
+- Install dependencies: bundle install
+
+- Launch local server: bundle exec jekyll serve
+
+- Access via browser at: http://localhost:4000
+
+Developed with rigorous data standards and business-driven methodology.

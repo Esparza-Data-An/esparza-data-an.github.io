@@ -28,6 +28,20 @@ segmentation to deliver cluster-specific retention strategies.
 
 ---
 
+## [Data-Driven Growth Analytics](./entertainment-ticketing/)
+**Entertainment Ticketing · Multichannel ROI · Cohort Analysis · Python**
+
+Dual-stream optimization evaluating marketing spend across 7 channels and tracking user purchase velocity. Identified systemic budget inefficiencies and mapped high-value behavioral cohorts to maximize ROMI.
+
+---
+
+## [User Behavior Analysis & A/A/B Test](./user-behavior-analysis/)
+**Product Analytics · Conversion Funnels · Hypothesis Testing · A/A/B Experiments**
+
+Reconstruction of a 4-stage mobile conversion funnel to locate a structural 38% user drop-off, combined with an A/A/B statistical experiment (z-tests with Bonferroni correction) evaluating design impact.
+
+---
+
 ## [Market & User Behavior Analysis](./videogame-market/)
 **Global E-commerce (Gaming) · Python · SciPy · Seaborn**
 
