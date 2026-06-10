@@ -6,34 +6,43 @@ permalink: /
 
 I'm a Data Analyst with a unique background in Anthropology and Cultural History. I don't just find patterns in data — I understand _why_ they exist.
 
-My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real decisions.
+My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real business decisions.
 
 [More about me](./about/)
+
 ---
 
 ## What I Do
 
 - 🐍 **Python** — Pandas, NumPy, Scikit-learn, SciPy
 - 🗄️ **SQL** — PostgreSQL, complex queries, multi-table joins
-- 📊 **Visualization** — Power BI, Tableau, Matplotlib, Seaborn
-- 🤖 **Machine Learning** — Classification, Clustering, Regression
-- 🧪 **Statistical Analysis** — A/B Testing, Hypothesis Testing, EDA
+- 📊 **Visualization** — Tableau, Power BI, Matplotlib, Seaborn
+- 🤖 **Machine Learning** — Predictive Modeling (Classification, Clustering)
+- 🧪 **Statistical Analysis** — A/A/B Testing, Non-parametric Tests, Cohort Analysis
 
 ---
 
-## [Featured Projects](./projects)
+## Featured Projects
+
+I specialize in translating raw data tracking into operational efficiency and financial growth. Here is a selection of my core work:
 
 | Project | Tools | Focus |
 |---|---|---|
-| [Operational Efficiency Analysis](./projects/operator-detection/) | Python, SciPy | EDA · Statistical Modeling |
-| [Customer Retention Analysis](./projects/customer-churn/) | Scikit-learn, K-Means | ML · Clustering |
-| [Market & User Behavior Analysis](./projects/videogame-market/) | Pandas, Seaborn | EDA · Segmentation |
-| [Mobility & Environmental Impact](./projects/chicago-trips/) | SQL, Web Scraping | Statistical Testing |
+| [Data-Driven Growth Analytics](./projects/marketing-growth-ticketing/) | Python, Cohorts | Multi-channel ROI & LTV Optimization |
+| [Customer Retention & Churn Prediction](./projects/customer-churn/) | Scikit-learn, K-Means | Predictive ML & Behavioral Clustering |
+| [User Behavior Analysis & A/A/B Test](./projects/foodtech-ab-testing/) | SciPy, Funnels | Product Analytics & Statistical Validation |
+| [Operational Efficiency & Scoring](./projects/operator-detection/) | Python, Tableau | Advanced EDA & Hypothesis Testing |
+
+<p align="center">
+  <strong>🚀 Looking for more? <a href="./projects/">View Full Project Catalog</a></strong>
+</p>
 
 ---
 
-## Let's Connect
+## 🛠️ Let's Build Something Together
 
-- 📧 [esparza.abraham.an@gmail.com](mailto:esparza.abraham.an@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/abrahamesparza97)
-- 🐙 [GitHub](https://github.com/Esparza-Data-An)
+I am currently open to data-driven roles where behavioral analysis, statistical rigor, and strategic optimization meet. If you are looking for an analyst who can bridge the gap between complex quantitative models and human-centric business logic, let's start a conversation.
+
+* 📧 **Direct Inbox:** [esparza.abraham.an@gmail.com](mailto:esparza.abraham.an@gmail.com)
+* 💼 **Professional Network:** [LinkedIn](https://www.linkedin.com/in/abrahamesparza97)
+* 🐙 **Code Repositories:** [GitHub](https://github.com/Esparza-Data-An)
