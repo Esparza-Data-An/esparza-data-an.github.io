@@ -54,6 +54,7 @@ A food products startup wanted to investigate user behavior across its mobile ap
 [Cart Screen: 3,734 Users]   ──(49.56% Overall / 18.70% Drop-off)
       ↓
 [Successful Pay: 3,539 Users]──(46.97% Overall / 5.22% Drop-off)
+```
 
 ### Experimental Outcomes
 - **A/A Validation Check:** Confirmed no statistically significant differences between control groups 246 and 247 ($p > 0.05$), proving the randomization algorithm worked perfectly.

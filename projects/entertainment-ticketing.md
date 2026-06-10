@@ -44,19 +44,21 @@ An entertainment ticketing platform needed to map its user interaction profiles 
 ## Key Results
 
 ### User Cohort Architecture
+
 | Cohort Window | % Share | Avg. Ticket | User LTV | Key Takeaway |
 | :--- | :---: | :---: | :---: | :--- |
 | **C0 (Immediate / Day 0)** | 72.2% | $4.56 | $5.92 | Core volume driver but lowest individual LTV. |
 | **C8-30 (8 to 30 Days)** | 6.0% | $7.82 | $13.47 | Highest transactional health; intensive research phase. |
 
 ### Multichannel Acquisition Efficiency
+
 | Source ID | Total Spend | Unit CAC | Attributed Revenue | ROMI (%) | Operational Action |
 | :---: | :---: | :---: | :---: | :---: | :--- |
 | **1** | $20,833.27 | $1.10 | $2,298,200.17 | **10,931.4%** | Highly Recommended (High Efficiency) |
 | **2** | $42,806.04 | $1.63 | $2,638,189.21 | **6,063.1%** | Highly Recommended (Maximum Scale) |
 | **3** | $141,321.63 | $1.89 | $296,687.96 | **109.9%** | Weak Performance (Highly Inefficient) |
 
-- **Structural Spend Inefficiency:** Source 3 commanded the highest budget allocation ($141.3K) while operating at a near-break-even **109.9% ROMI**, severely dragging down corporate margins.
+* **Structural Spend Inefficiency:** Source 3 commanded the highest budget allocation ($141.3K) while operating at a near-break-even **109.9% ROMI**, severely dragging down corporate margins.
 
 ---
 
