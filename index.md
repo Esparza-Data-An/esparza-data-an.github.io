@@ -30,7 +30,7 @@ I specialize in translating raw data tracking into operational efficiency and fi
 |---|---|---|
 | [Data-Driven Growth Analytics](./projects/marketing-growth-ticketing/) | Python, Cohorts | Multi-channel ROI & LTV Optimization |
 | [Customer Retention & Churn Prediction](./projects/customer-churn/) | Scikit-learn, K-Means | Predictive ML & Behavioral Clustering |
-| [User Behavior Analysis & A/A/B Test](./projects/foodtech-ab-testing/) | SciPy, Funnels | Product Analytics & Statistical Validation |
+| [User Behavior Analysis & A/A/B Test](./projects/user-behavior-analysis//) | SciPy, Funnels | Product Analytics & Statistical Validation |
 | [Operational Efficiency & Scoring](./projects/operator-detection/) | Python, Tableau | Advanced EDA & Hypothesis Testing |
 
 <p align="center">
