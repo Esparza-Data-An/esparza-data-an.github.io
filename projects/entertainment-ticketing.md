@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data-Driven Growth Analytics: Optimizing User Cohorts and Marketing ROI
+title: "Data-Driven Growth Analytics: Optimizing User Cohorts and Marketing ROI"
 permalink: /projects/marketing-growth-ticketing/
 ---
 
