@@ -100,9 +100,9 @@ A Power BI dashboard was built to allow stakeholders to explore these insights i
 3. **Cohort Analysis** – LTV, average ticket, and orders per user, with an interactive filter by device (`desktop` / `touch`).
 
 ### Dashboard Preview
-![Executive Summary](projects/images/dashboard_page1.png)
-![Marketing Efficiency](projects/images/dashboard_page2.png)
-![Cohort Analysis](projects/images/dashboard_page3.png)
+![Executive Summary](projects/images/entertainment-ticketing/dashboard_page1.png)
+![Marketing Efficiency](projects/images/entertainment-ticketing/dashboard_page2.png)
+![Cohort Analysis](projects/images/entertainment-ticketing/dashboard_page3.png)
 
 📊 [Download the .pbix file](https://github.com/Esparza-Data-An/Data-Driven-Growth-Analytics--Optimizing-User-Cohorts-and-Marketing-ROI-for-Entertainment-Ticketing/blob/main/growth_analytics_dashboard.pbix) *(requires Power BI Desktop)*
 
