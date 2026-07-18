@@ -30,16 +30,16 @@ An entertainment ticketing platform required a comprehensive diagnostic of its u
 **1. Data Pipeline & Feature Engineering**
 - Standardized cross-dataset headers to `lower_snake_case` and cast timestamps to `datetime64[ns]`.
 - Engineered explicit session durations and built purchase-velocity cohorts using first-visit and first-purchase timestamps.
-- Applied **volume‑weighted aggregation** (by `calls_count`) to correct for dataset skewness during exploratory analysis.
+- Applied **volume‑weighted aggregation** to correct for dataset skewness during exploratory analysis.
 
 **2. Product Dynamics & Seasonality**
 - Established traffic baselines: **DAU (908 unique users)** and **WAU (5,716 unique users)**.
-- Detected strong late‑Q4 cyclical peaks (November Black Friday) and a retention bottleneck: only **19.7%** of users return on distinct days.
-- Identified **intensive single‑day users** (multiple sessions on the same day but no return) with a purchase rate of **40.60%** vs. **10.47%** for single‑session users (Z‑test, p=0).
+- Detected strong late‑Q4 cyclical peaks (November) and a retention bottleneck: only **19.7%** of users return on distinct days.
+- Identified **intensive single‑day users** (multiple sessions on the same day) with a purchase rate of **40.60%** vs. **10.47%** for single‑session users (Z‑test, p=0).
 
 **3. Cohort & Marketing Performance Optimization**
 - Segmented buyers into conversion‑velocity windows (C0, C1, C2‑7, C8‑30, C30+).
-- Used **first‑touch attribution** to assign revenue to the marketing source that originally acquired the user, avoiding revenue inflation from multiple sessions.
+- Used **first‑touch attribution** to correctly assign revenue to the original acquisition channel, preventing the revenue inflation that occurs when aggregating multiple sessions.
 - Mapped transactional revenue against daily ad spend to calculate unit CAC and channel‑specific ROMI.
 
 ---
@@ -53,42 +53,47 @@ An entertainment ticketing platform required a comprehensive diagnostic of its u
 | **C0 (Immediate / Day 0)** | 72.2% | $4.56 | $5.92 | Core volume driver but lowest individual LTV. |
 | **C1 (1 Day)** | 2.8% | $5.90 | $10.57 | Small but high‑ticket segment. |
 | **C2‑7 (2 to 7 Days)** | 5.7% | $4.79 | $7.99 | Moderate value, short research phase. |
-| **C8‑30 (8 to 30 Days)** | 6.0% | $7.82 | $13.47 | Highest transactional health; intensive research phase. |
+| **C8‑30 (8 to 30 Days)** | 6.0% | $7.82 | $13.47 | **Highest value**; intensive research phase. |
 | **C30+ (Over 30 Days)** | 13.4% | $5.50 | $8.04 | Late buyers with intermediate LTV. |
 
-**Insight:** C8‑30 users represent only 6% of buyers but generate the highest LTV ($13.47) and average ticket ($7.82), making them the prime target for retargeting and nurturing campaigns.
+**Insight:** C8‑30 users represent only 6% of buyers but generate the highest LTV ($13.47), making them the prime target for retargeting and nurturing campaigns.
 
-### Multichannel Acquisition Efficiency
+### Multichannel Acquisition Efficiency (Corrected)
 
-| Source ID | Total Spend | Unit CAC | Attributed Revenue | ROMI (%) | Operational Action |
-| :---: | :---: | :---: | :---: | :---: | :--- |
-| **1** | $20,833.27 | $1.10 | $2,298,200.17 | **10,931.4%** | Highly Recommended (High Efficiency) |
-| **2** | $42,806.04 | $1.63 | $2,638,189.21 | **6,063.1%** | Highly Recommended (Maximum Scale) |
-| **3** | $141,321.63 | $1.89 | $296,687.96 | **109.9%** | Weak Performance (Highly Inefficient) |
+| Source ID | Total Spend | Unit CAC | ROMI (%) | Operational Diagnosis |
+| :---: | :---: | :---: | :---: | :--- |
+| **1** | $20,833 | $2.20 | **49%** | Highly Profitable (Scale) |
+| **2** | $42,806 | $2.43 | **9.6%** | Moderately Profitable (Maintain) |
+| **3** | $141,322 | $2.14 | **-61%** | Highly Inefficient (Reduce) |
+| **4** | $61,074 | $0.84 | **-7%** | Marginal (Optimize) |
+| **5** | $51,757 | $1.05 | **1.6%** | Break-even (Investigate) |
+| **9** | $5,517 | $0.86 | **4.4%** | Positive Niche (Monitor) |
+| **10** | $5,822 | $0.84 | **-23%** | Loss-making (Eliminate) |
 
-* **Structural Inefficiency:** Source 3 commanded the highest budget allocation ($141.3K) while operating at a near‑break‑even **109.9% ROMI**, severely dragging down corporate margins.
+* **Structural Inefficiency:** Source 3 consumes the highest budget ($141K) while destroying value (-61% ROMI) due to high volume of low-quality traffic (84% non-buyers, low retention).
 
 ### Quality of Traffic (Integrated View)
 
-| Source | ROMI | CAC | % No Buyers | % C0 | % C8‑30 | Avg. Days Active | Avg. Session Duration |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | 49% | $2.20 | 69% | 24% | 2% | 2.08 | 12.18 min |
-| 3 | -61% | $2.14 | 84% | 11% | 1% | 1.41 | 8.89 min |
-| 9 | 4% | $0.86 | 83% | 8% | 2% | 1.82 | 8.74 min |
+| Source | % No Buyers | % C8-30 (High Value) | Avg. Days Active | Avg. Session Duration |
+| :---: | :---: | :---: | :---: | :---: |
+| 1 | **69%** (Best) | 2% | 2.08 | 12.18 min |
+| 3 | 84% | 1% | 1.41 | 8.89 min |
+| 9 | 83% | **6%** (Late Buyers) | 1.82 | 8.74 min |
 
 **Key Takeaways:**
-- **Source 1** is the most efficient channel (ROMI 49%) with the highest retention (2.08 days) and session duration (12.18 min).
-- **Source 3** is inefficient (−61% ROMI) due to low‑quality traffic (84% non‑buyers, low retention).
-- **Source 9** shows a distinct late‑buyer profile (6% C30+) and deserves monitoring.
+- **Source 1** wins on quality: highest retention and lowest non-buyer rate.
+- **Source 3** is a volume trap: high users, terrible quality.
+- **Source 9** is a hidden opportunity: it attracts the highest proportion of late-stage buyers (C30+).
 
 ---
 
 ## Conclusions
 
-To optimize commercial growth, capital must be **immediately reallocated** from Source 3 toward high‑efficiency scaling channels (Sources 1, 2, and 5). Additionally:
-- Integrate **upselling and cross‑selling** mechanisms into the immediate C0 funnel to expand their low average ticket.
-- Deploy **targeted retargeting campaigns** for the high‑value C8‑30 mid‑funnel segment.
-- Monitor Source 9 as a potential long‑term cultivation channel.
+To optimize commercial growth, capital must be **immediately reallocated**:
+1. **Eliminate Source 10** and drastically **reduce Source 3** by 80%, redirecting funds to Source 1 and 2.
+2. **Optimize Source 4**: Improve the landing page to increase immediate conversion from 10% to 12% to turn it profitable.
+3. **Nurture the Funnel**: Deploy retargeting campaigns for the high‑value C8‑30 segment and integrate upselling in the immediate C0 funnel.
+
 
 ---
 
