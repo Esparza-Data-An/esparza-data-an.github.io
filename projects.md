@@ -42,6 +42,13 @@ Reconstruction of a 4-stage mobile conversion funnel to locate a structural 38% 
 
 ---
 
+## [Refugee Migration & Humanitarian Funding Dashboard](./hapi-refugees-dashboard/)
+**Migration Analytics · Humanitarian Data · Power BI · ETL**
+
+Refugee Migration & Humanitarian Funding Data-driven analysis of the Latin American migration crisis using Power BI, HDX HAPI, and World Bank API. Features 3 interactive dashboard pages, refugee distribution maps, funding efficiency metrics, and RMRP gap analysis.
+
+---
+
 ## [Market & User Behavior Analysis](./videogame-market/)
 **Global E-commerce (Gaming) · Python · SciPy · Seaborn**
 

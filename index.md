@@ -6,7 +6,7 @@ permalink: /
 
 I'm a Data Analyst with a unique background in Anthropology and Cultural History. I don't just find patterns in data — I understand _why_ they exist.
 
-My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real business decisions.
+My work combines technical rigor with a socio-cultural perspective, transforming complex datasets into strategic narratives that drive real accionable decisions.
 
 [More about me](./about/)
 
