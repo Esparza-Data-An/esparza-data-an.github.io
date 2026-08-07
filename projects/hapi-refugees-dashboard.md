@@ -76,9 +76,9 @@ A Power BI dashboard was built to allow stakeholders to explore these insights i
 3. **Venezuela Case Study** – RMRP funding distribution, gap analysis, and scatter plot.
 
 ### Dashboard Preview
-![Regional Overview](images/hapi-rmrp/dashboard_page1.png)
-![Historical Evolution](images/hapi-rmrp/dashboard_page2.png)
-![Venezuela Case Study](images/hapi-rmrp/dashboard_page3.png)
+![Regional Overview](images/hapi-rmrp/page1_panorama_regional.png)
+![Historical Evolution](images/hapi-rmrp/page2_evolucion_historica.png)
+![Venezuela Case Study](images/hapi-rmrp/page3_caso_rmrp.png)
 
 📊 [Download the .pbix file](https://github.com/Esparza-Data-An/HAPI-Refugees-in-South-America/blob/main/refugee_dashboard.pbix) *(requires Power BI Desktop)*
 
